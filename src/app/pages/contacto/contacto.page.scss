@@ -1,0 +1,20 @@
+.titulo {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 20px;
+  color: #d35400;
+}
+
+.imagen-mascota {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.boton-volver {
+  margin-top: 20px;
+  --border-radius: 12px;
+  font-weight: bold;
+}
