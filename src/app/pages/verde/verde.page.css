@@ -1,0 +1,29 @@
+.contenido-verde {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  color: #2e7d32;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.img-verde {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+
+.btn-amarillo {
+  font-weight: bold;
+  border-radius: 12px;
+  --background: #fdd835;
+  --color: #000;
+}

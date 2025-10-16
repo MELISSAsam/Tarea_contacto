@@ -1,0 +1,31 @@
+.contenido-amarillo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  background-color: #fffde7;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  color: #f9a825;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.img-amarillo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+
+.btn-verde {
+  font-weight: bold;
+  border-radius: 12px;
+  --background: #43a047;
+  --color: #fff;
+}
+ 

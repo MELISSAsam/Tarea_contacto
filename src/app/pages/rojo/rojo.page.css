@@ -1,0 +1,32 @@
+.contenido-rojo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(to bottom, #ff9999, #ff4d4d);
+  height: 100%;
+}
+
+.contenedor {
+  max-width: 400px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.imagen-semaforo {
+  width: 180px;
+  height: auto;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+.btn-verde {
+  font-weight: bold;
+  border-radius: 12px;
+}

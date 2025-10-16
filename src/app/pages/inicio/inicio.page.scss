@@ -30,8 +30,15 @@ ion-header {
 }
 
 /* === Botón de navegación === */
+.centrar-boton {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente */
+  height: 100vh;           /* Ocupa toda la altura de la pantalla */
+  text-align: center;
+}
+
 .btn-contacto {
-  margin-top: 2rem;
   width: 80%;
   max-width: 300px;
   --border-radius: 30px;
@@ -41,6 +48,7 @@ ion-header {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
+
 
 /* Efecto hover */
 .btn-contacto:hover {
